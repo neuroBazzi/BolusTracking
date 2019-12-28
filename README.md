@@ -3,7 +3,7 @@ Matlab GUI to load multi-images TIF stacks, draw ROIs and fit the signal time co
 
 Introduction:
 
-This code is to extract information from timeseries of 2D images from experiments in which a fluorescent dye bolus passes through the vasculature. Example data is provided.
+This code has been written for multi-photon imaging experiments in which a bolus of fluorescent dye is injected in the vasculature and creates a sudden and rapid increase in signal intensity in some clusters of pixels (i.e. ROIs) in the field of view. This code adopts spline interpolation and fitting with gamma variate function to deal with low SNR. It allows for multiple ROIs selection and user-friendly, GUI-based, input of initial fitting parameters. Furthermore, it allows the user to skip the traces the are too noisy to be fitted. At the end of the anlysis, the user can export the results as .csv (Excel and R compatible) for statistical analysis. 
 
 Instructions:
 
